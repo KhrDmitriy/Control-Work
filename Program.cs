@@ -2,7 +2,7 @@
 string[]arr = {"hello", "2","word",";-)"};
 
 
-// Первый вариан (метод).
+// Первый вариант (метод).
 string[] ChangeArrayToTreeSimbols(string[] arr)
 {
     int j = 0;
