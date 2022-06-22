@@ -1,7 +1,7 @@
 ﻿
 string[]arr = {"hello", "2","word",";-)"};
 
-
+/*
 // Первый вариант (метод).
 string[] ChangeArrayToTreeSimbols(string[] arr)
 {
@@ -21,6 +21,21 @@ string[] ChangeArrayToTreeSimbols(string[] arr)
     }
     return newArr;
 }
+*/
+
+// Второй вариант (метод)
+string[] ChangeArrayToTreeSimbols(string[] arr)
+{
+    for( int i = 0; i < arr.Length; i++)
+    {
+        if(arr[i].Length > 3)
+        {
+            arr[i] = " ";
+        } 
+    }
+    return arr;
+}
+
 
 void PrintArray(string[] newArr)
 {
